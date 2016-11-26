@@ -10,6 +10,12 @@ public:
     SerieDeCanal(string nome, int quantidadeMaxima);
     virtual ~SerieDeCanal();
     virtual void adicionar (double valor);
+    string getNome();
+    bool estaVazia();
+    int getTamanho();
+    double getValor();
+    double getMaximo();
+    double getMinimo();
 
 private:
     int tamanho = 0;
