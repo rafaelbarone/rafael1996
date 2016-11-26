@@ -10,6 +10,13 @@ public:
     Tempo(int tamanhoDaFaixa);
     virtual ~Tempo();
     virtual void incrementar();
+    string getNome();
+    bool estaVazia();
+    int getTamanho();
+    double getValor(int posicao);
+    double getMaximo();
+    double getMinimo();
+
 
 private:
     int tamanhoDaFaixa;
